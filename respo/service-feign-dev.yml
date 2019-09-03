@@ -6,7 +6,7 @@ server:
   port: 8089
 spring:
   application:
-    name: service-feign
+    name: service-feign222
   main:
     allow-bean-definition-overriding: true  #配置可以存在多个生产者实例
 feign:
