@@ -6,9 +6,11 @@ server:
   port: 8089
 spring:
   application:
-    name: service-feign222
+    name: service-feign
   main:
     allow-bean-definition-overriding: true  #配置可以存在多个生产者实例
+  zipkin:
+    base-url: http://localhost:9411  
 feign:
   hystrix:
     enabled: true  #配置文件中配置打开断路器
