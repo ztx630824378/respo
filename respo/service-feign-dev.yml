@@ -12,3 +12,8 @@ spring:
 feign:
   hystrix:
     enabled: true  #配置文件中配置打开断路器
+spring:
+    thymeleaf:
+        cache: false
+        prefix: classpath:/templates/
+        suffix: .html
