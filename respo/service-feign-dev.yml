@@ -13,6 +13,9 @@ spring:
     cache: false
     prefix: classpath:/templates/
     suffix: .html
+  data:
+    solr:
+      host: http://127.0.0.1:8080/solr
 feign:
   hystrix:
     enabled: true  #配置文件中配置打开断路器
