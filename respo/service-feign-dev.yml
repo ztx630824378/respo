@@ -15,7 +15,7 @@ spring:
     suffix: .html
   data:
     solr:
-      host: http://localhost:8080/solr/core1
+      host: http://localhost:8080/solr
 feign:
   hystrix:
     enabled: true  #配置文件中配置打开断路器
