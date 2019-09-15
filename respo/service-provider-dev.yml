@@ -22,4 +22,4 @@ eureka:
 mybatis:
   config-locations: classpath:mapping/confg.xml
   mapper-locations: classpath:mapping/mapper/*.xml
-  type-aliases-package: com.jk.ztx.model
+  type-aliases-package: com.jk.model
