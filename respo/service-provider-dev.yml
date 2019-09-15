@@ -6,7 +6,7 @@ spring:
     name: service-provider
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:8066/TESTDB?ServerTimezone=HongKong&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:8066/TESTDB
     username: root
     password: root
 eureka:
