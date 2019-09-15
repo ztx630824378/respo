@@ -12,7 +12,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8080/eureka/
+      defaultZone: http://localhost:8081/eureka/
 
   instance:
     ##EurekaClient 向注册中心发送心跳的时间间隔，（单位：秒）客户端告诉注册服务端自己会按照该规则发送心跳
