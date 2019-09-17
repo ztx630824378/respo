@@ -16,5 +16,10 @@ spring:
 feign:
   hystrix:
     enabled: true  #配置文件中配置打开断路器
-
+elasticsearch:
+  clusterName: my-application
+  firstPort: 9300
+  ip: 127.0.0.1
+  secondPort: 9301
+  thirdPort: 9302
     
